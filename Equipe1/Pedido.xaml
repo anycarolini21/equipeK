@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Equipe1.Pedido">
+
+    <ContentPage.Content>
+        <Grid BackgroundColor="LightBlue" Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="8*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+
+            <Ellipse Grid.Row="0"
+                     WidthRequest="150"
+                     HeightRequest="70"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     Stroke="Black">
+                <Label Text="Pedido"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+            </Ellipse>
+
+            <StackLayout Grid.Row="1"
+                         VerticalOptions="Center"
+                         Spacing="10">
+                <Button Text="Lista de Pedidos" />
+                <Button Text="Cadastro de Pedidos" />
+                <Button Text="Realização do Pagamento" />
+            </StackLayout>
+
+            <StackLayout Grid.Row="2"
+                         Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         VerticalOptions="End"
+                         Spacing="50">
+                <Button Text="←" />
+                <Button Text="→" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

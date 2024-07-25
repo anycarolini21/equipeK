@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Equipe1.ListaDePedidos">
+
+    <ContentPage.Content>
+        <Grid BackgroundColor="LightBlue" Padding="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="6*" />
+                <RowDefinition Height="2*" />
+            </Grid.RowDefinitions>
+
+            <Ellipse Grid.Row="0"
+                     WidthRequest="150"
+                     HeightRequest="70"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center"
+                     Stroke="Black">
+                <Label Text="Lista de Pedidos"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center" />
+            </Ellipse>
+
+            <Label Grid.Row="1"
+                   Text="Informações Necessárias"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+
+            <Grid Grid.Row="2"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="prod" FontAttributes="Bold" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" />
+                <Label Text="quant" FontAttributes="Bold" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" />
+                <Label Text="valor" FontAttributes="Bold" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" />
+
+                <!-- Adicione mais linhas de dados conforme necessário -->
+                <Label Text="" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" />
+                <Label Text="" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" />
+                <Label Text="" Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" />
+            </Grid>
+
+            <StackLayout Grid.Row="3"
+                         Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         VerticalOptions="End"
+                         Spacing="50">
+                <Button Text="←" />
+                <Button Text="→" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
