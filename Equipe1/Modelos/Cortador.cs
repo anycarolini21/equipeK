@@ -2,15 +2,17 @@ namespace Modelos
 {
     public class Cortador
     {
-    string Nome;
+    string nome;
     Int64 id;
-    }
-    public void SetNome (string Nome)
+    
+    public void Setnome (string nome)
 {
-    this.Nome = Nome;
+    this.nome = nome;
 }
-public string GetNome()
+public string Getnome()
 {
-    return Nome;
+    return nome;
+}
+    
 }
 }
