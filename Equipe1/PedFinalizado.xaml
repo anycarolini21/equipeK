@@ -1,0 +1,34 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Equipe1">
+
+    <Grid BackgroundColor="LightBlue">
+        <Frame BackgroundColor="White"
+               CornerRadius="20"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand">
+            <StackLayout HorizontalOptions="CenterAndExpand"
+                         VerticalOptions="CenterAndExpand">
+                <Label Text="Pedido Finalizado"
+                       FontSize="Large"
+                       TextColor="Black" />
+            </StackLayout>
+        </Frame>
+        <Label Text="Seu pedido foi finalizado com sucesso!!\nObrigada pela compra."
+               FontSize="Medium"
+               TextColor="Gray"
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               Margin="0, 20, 0, 0" />
+        <Button Text="Voltar para a Tela Inicial"
+                Clicked="VoltarParaTelaInicial_Clicked"
+                VerticalOptions="End"
+                HorizontalOptions="CenterAndExpand"
+                Margin="0, 20, 0, 0" />
+        <Image Source="ic_arrow_back.png"
+               VerticalOptions="End"
+               HorizontalOptions="Start"
+               Margin="20" />
+    </Grid>
+
+</ContentPage>
