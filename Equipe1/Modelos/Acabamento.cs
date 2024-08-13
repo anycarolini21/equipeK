@@ -1,37 +1,17 @@
+using LiteDB;
+
 namespace Modelos
 {
-public class Acabamento
-{
-    string Quantidade;
-    string Aviamentos;
-    string NumeroOp;
-    
-    Int64 id;
+    public class Acabamento
+    {
+        [BsonId]
+        public int Id { get; set; }
 
-public void SetQuantidade (string Quantidade )
-{
-    this.Quantidade  = Quantidade ;
-}
-public string GetQuantidade ()
-{
-    return Quantidade ;
-}
-public void SetAviamentos (string Aviamentos)
-{
-    this.Aviamentos = Aviamentos;
-}
-public string GetAviamentos()
-{
-    return Aviamentos;
-}
-public void SetNumeroOp (string NumeroOp)
-{
-    this.NumeroOp = NumeroOp;
-}
-public string GetNumeroOp()
-{
-    return NumeroOp;
-}
+        public string Quantidade { get; set; }
 
-}
+        public string Aviamentos { get; set; }
+
+        public string NumeroOp { get; set; }
+
+    }
 }
