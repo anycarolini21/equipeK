@@ -2,7 +2,7 @@ using LiteDB;
 
 namespace Modelos
 {
-public class Bordado
+public class Bordado : Registro
 {
      [BsonId]
 public string Quantidade { get; set;}
