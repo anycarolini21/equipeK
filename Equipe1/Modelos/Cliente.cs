@@ -5,6 +5,7 @@ namespace Modelos
 public class Cliente : Registro
 {
      [BsonId]
+public int Id { get; set; }
 public string Nome {get; set;}
 public string Enderecoo {get; set;}
 public string Email {get; set;}

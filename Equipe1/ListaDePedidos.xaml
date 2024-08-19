@@ -12,17 +12,6 @@
                 <RowDefinition Height="2*" />
             </Grid.RowDefinitions>
 
-            <Ellipse Grid.Row="0"
-                     WidthRequest="150"
-                     HeightRequest="70"
-                     HorizontalOptions="Center"
-                     VerticalOptions="Center"
-                     Stroke="Black">
-                <Label Text="Lista de Pedidos"
-                       HorizontalOptions="Center"
-                       VerticalOptions="Center" />
-            </Ellipse>
-
             <Label Grid.Row="1"
                    Text="Informações Necessárias"
                    HorizontalOptions="Center"

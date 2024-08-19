@@ -10,17 +10,6 @@
                 <RowDefinition Height="8*" />
             </Grid.RowDefinitions>
             
-            <Ellipse Grid.Row="0"
-                     WidthRequest="100"
-                     HeightRequest="50"
-                     HorizontalOptions="Center"
-                     VerticalOptions="Center"
-                     Stroke="Black">
-                <Label Text="Inicio"
-                       HorizontalOptions="Center"
-                       VerticalOptions="Center" />
-            </Ellipse>
-            
             <StackLayout Grid.Row="1"
                          VerticalOptions="Center"
                          Spacing="10">
