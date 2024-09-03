@@ -8,5 +8,17 @@ namespace Equipe1
         {
             InitializeComponent();
         }
+    
+    void TrocarDePagina(object sender, EventArgs e)
+  {
+    Application.Current.MainPage = new Pedido();
+  }
+  void TrocarFornecedor(object sender, EventArgs e)
+  {
+    Application.Current.MainPage = new Pedido();
+  }
+
+    
+    
     }
 }

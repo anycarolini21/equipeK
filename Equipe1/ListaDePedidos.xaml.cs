@@ -8,5 +8,10 @@ namespace Equipe1
         {
             InitializeComponent();
         }
+            void VoltarPedido(object sender, EventArgs e)
+  {
+    Application.Current.MainPage = new Pedido();
+  }
+        
     }
 }

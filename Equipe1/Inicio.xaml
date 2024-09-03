@@ -13,8 +13,10 @@
             <StackLayout Grid.Row="1"
                          VerticalOptions="Center"
                          Spacing="10">
-                <Button Text="Cliente" />
-                <Button Text="Fornecedor" />
+                <Button Text="Cliente"
+                Clicked="TrocarDePagina" />
+                <Button Text="Fornecedor" 
+                Clicked="TrocarFornecedor" />
                 <Button Text="Matéria-prima" />
                 <Button Text="Setores" />
                 <Button Text="Pedido" />

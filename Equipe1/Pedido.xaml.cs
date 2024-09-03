@@ -8,5 +8,15 @@ namespace Equipe1
         {
             InitializeComponent();
         }
+
+         void VoltarInicio(object sender, EventArgs e)
+  {
+    Application.Current.MainPage = new Inicio();
+  }
+      void ListadePedidos(object sender, EventArgs e)
+  {
+    Application.Current.MainPage = new ListaDePedidos();
+  }
+  
     }
 }

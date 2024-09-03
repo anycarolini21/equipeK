@@ -14,7 +14,8 @@
             <StackLayout Grid.Row="1"
                          VerticalOptions="Center"
                          Spacing="10">
-                <Button Text="Lista de Pedidos" />
+                <Button Text="Lista de Pedidos" 
+                Clicked="ListadePedidos"/>
                 <Button Text="Cadastro de Pedidos" />
                 <Button Text="Realização do Pagamento" />
             </StackLayout>
@@ -24,8 +25,9 @@
                          HorizontalOptions="Center"
                          VerticalOptions="End"
                          Spacing="50">
-                <Button Text="←" />
-                <Button Text="→" />
+                <Button Text="←" 
+                Clicked="VoltarInicio"/>
+    
             </StackLayout>
         </Grid>
     </ContentPage.Content>

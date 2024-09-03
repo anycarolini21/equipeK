@@ -45,7 +45,9 @@
                          HorizontalOptions="Center"
                          VerticalOptions="End"
                          Spacing="50">
-                <Button Text="←" />
+                <Button Text="←"
+                Clicked="VoltarPedido" />
+                
                 <Button Text="→" />
             </StackLayout>
         </Grid>
