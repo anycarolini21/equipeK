@@ -8,5 +8,14 @@ namespace Equipe1
         {
             InitializeComponent();
         }
+          void Voltar1(object sender, EventArgs e)
+  {
+    Application.Current.MainPage = new ListaDePedidos();
+  }
+
+            void Ir1(object sender, EventArgs e)
+  {
+    Application.Current.MainPage = new RealizacaoPag();
+  }
     }
 }

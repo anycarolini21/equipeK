@@ -12,6 +12,11 @@ namespace Equipe1
   {
     Application.Current.MainPage = new Pedido();
   }
+
+              void Irparafrente(object sender, EventArgs e)
+  {
+    Application.Current.MainPage = new CadastroDePedidos();
+  }
         
     }
 }

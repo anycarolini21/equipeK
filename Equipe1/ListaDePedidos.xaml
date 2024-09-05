@@ -48,7 +48,8 @@
                 <Button Text="←"
                 Clicked="VoltarPedido" />
                 
-                <Button Text="→" />
+                <Button Text="→" 
+                Clicked="Irparafrente" />
             </StackLayout>
         </Grid>
     </ContentPage.Content>

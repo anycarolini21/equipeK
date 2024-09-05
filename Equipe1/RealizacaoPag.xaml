@@ -11,13 +11,16 @@
                            HorizontalOptions="Center"
                            FontAttributes="Bold" />
                     <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Spacing="10">
-                        <Button Text="Dinheiro" WidthRequest="200" HeightRequest="40"/>
-                        <Button Text="Cartão" WidthRequest="200" HeightRequest="40"/>
-                        <Button Text="Pix" WidthRequest="200" HeightRequest="40"/>
+                        <Button Text="Dinheiro" WidthRequest="200" HeightRequest="40"
+                        Clicked="PagarDinheiro"/>
+                        <Button Text="Cartão" WidthRequest="200" HeightRequest="40"
+                        Clicked="PagarCartao"/>
+                        <Button Text="Pix" WidthRequest="200" HeightRequest="40"
+                        Clicked="Pagarpix"/>
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="10">
-                        <Button Text="←" HorizontalOptions="CenterAndExpand"/>
-                        <Button Text="→" HorizontalOptions="CenterAndExpand"/>
+                        <Button Text="←" HorizontalOptions="CenterAndExpand"
+                        Clicked="Voltar2" />
                     </StackLayout>
                 </StackLayout>
             </Frame>

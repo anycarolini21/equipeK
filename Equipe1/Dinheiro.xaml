@@ -28,7 +28,8 @@
                         </StackLayout>
                     </Frame>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="10">
-                        <Button Text="←" HorizontalOptions="CenterAndExpand"/>
+                        <Button Text="←" HorizontalOptions="CenterAndExpand"
+                        Clicked="Voltar4"/>
                     </StackLayout>
                 </StackLayout>
             </Frame>

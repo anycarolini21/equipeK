@@ -35,8 +35,10 @@
                         <Entry Grid.Row="3" Grid.Column="1"/>
                     </Grid>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Padding="10">
-                        <Button Text="←" HorizontalOptions="CenterAndExpand"/>
-                        <Button Text="→" HorizontalOptions="CenterAndExpand"/>
+                        <Button Text="←" HorizontalOptions="CenterAndExpand"
+                        Clicked="Voltar1" />
+                        <Button Text="→" HorizontalOptions="CenterAndExpand"
+                        Clicked="Ir1"/>
                     </StackLayout>
                 </StackLayout>
             </Frame>
